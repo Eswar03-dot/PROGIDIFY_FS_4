@@ -1,0 +1,100 @@
+body {
+margin: 0;
+padding: 0;
+background: #f0f2f5;
+font-family: Arial, sans-serif;
+}
+
+.container {
+width: 80%;
+max-width: 900px;
+margin: 40px auto;
+background: white;
+padding: 30px;
+border-radius: 15px;
+box-shadow: 0 0 15px rgba(0,0,0,0.15);
+}
+
+h1 {
+text-align: center;
+color: #005f73;
+margin-bottom: 30px;
+}
+
+.room-section,
+.message-section {
+display: flex;
+gap: 10px;
+margin-bottom: 15px;
+}
+
+input {
+flex: 1;
+padding: 15px;
+font-size: 18px;
+border: 1px solid #ccc;
+border-radius: 10px;
+}
+
+button {
+padding: 15px 25px;
+border: none;
+background: #2ecc71;
+color: white;
+font-size: 18px;
+border-radius: 10px;
+cursor: pointer;
+}
+
+button {
+background: #27ae60;
+}
+
+#users {
+margin-bottom: 20px;
+}
+
+#users li {
+margin-bottom: 5px;
+font-size: 18px;
+}
+
+#typing-status {
+color: #666;
+font-style: italic;
+margin-bottom: 10px;
+}
+
+#messages {
+height: 350px;
+overflow-y: auto;
+border: 1px solid #ccc;
+border-radius: 10px;
+padding: 15px;
+background: #fafafa;
+}
+
+.message {
+background: #d4edbc;
+padding: 12px;
+border-radius: 12px;
+margin-bottom: 10px;
+width: fit-content;
+max-width: 70%;
+}
+
+.message small {
+display: block;
+margin-top: 5px;
+color: #555;
+}
+
+.notification {
+    text-align: center;
+    color: #666;
+    font-style: italic;
+    margin: 10px 0;
+    background: #f8f9fa;
+    padding: 8px;
+    border-radius: 8px;
+}
